@@ -1,0 +1,18 @@
+#include<stdio.h>
+void main(){
+    int l, u;
+    printf("enter lower limmit");
+    scanf("%d", &l);
+    printf("enter upper limit");
+    scanf("%d", &u);
+    if(l<u){
+        while(l<u){
+            printf("%d\t", l);
+            l++;
+        }
+        printf("%d", u);
+    }
+    else{
+        printf("invailid inputs");
+    }
+}

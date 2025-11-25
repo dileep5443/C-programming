@@ -1,0 +1,18 @@
+#include<stdio.h>
+void main(){
+    int l, u, sum=0;
+    printf("enter lower limmit");
+    scanf("%d", &l);
+    printf("enter upper limit");
+    scanf("%d", &u);
+    if(l<u){
+        while(l<=u){
+            sum=sum+l;
+            l++;
+        }
+        printf("%d", sum);
+    }
+    else{
+        printf("invalid");
+    }
+}
