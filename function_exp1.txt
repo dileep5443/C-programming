@@ -1,0 +1,17 @@
+#include<stdio.h>
+void main(){
+    void add();
+    printf("hello");
+    printf("\nI am working with");
+    printf("\nFuctions");
+    add();
+    
+    printf("\nEnd of the program");
+}
+
+void add(){
+    int a,b;
+    printf("\nEnter a and b values:\n");
+    scanf("%d%d", &a,&b);
+    printf("%d", a+b);
+}
